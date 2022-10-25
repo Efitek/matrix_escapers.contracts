@@ -1,6 +1,6 @@
-# Martify
-NFT Marketplace on the Cardano Blockchain. Powered by Plutus Smart Contracts
-A simple contract that allows sales of NFTs. The seller (owner of an NFT) constructs the contract with parameters unique to the sale and locks the NFT there.
+# matrix_escapers
+NFT Staking and Marketplace on the Cardano Blockchain. Powered by Plutus Smart Contracts
+A simple contract that allows sales of NFTs and stake them. The seller (owner of an NFT) constructs the contract with parameters unique to the sale and locks the NFT there.
 A buyer can then unlock the NFT by submitting a transaction verifying the several requirements defined in the validator.
 ***
 ### Test in emulator
@@ -15,11 +15,8 @@ A buyer can then unlock the NFT by submitting a transaction verifying the severa
 ## Donations
 We would really appreciate financial support to our project, it helps us spend more time and effort on it.
 
-ADA Address : addr1vycmju7zumcgq5wsdmdwkxafhhuu3xeed60auwngww2fkjcr38qjm
+ADA Address : addr1q9x7d8t208f72qkluw2ehmve5pmkg4q0v7ht5222j5s6frqa795zty0js646l4fa3ptxy47skqszkxawt3dag8c4ls3qweg26l
 
 ## Contract usage
 The Martify contract for marketplaces is being used by several marketplaces currently live on Cardano.
 The list of marketplaces based on our contracts is :
-* https://jpg.store
-* https://martify.io
-* https://filthyrichhorses.com/marketplace
