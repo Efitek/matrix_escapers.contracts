@@ -38,7 +38,7 @@ write-ghc-environment-files: never
 tests: true
 benchmarks: true
 
--- The only sensible test display option
+-- The only sensible test display option.
 test-show-details: streaming
 
 allow-newer:
