@@ -1,10 +1,10 @@
 Cabal-Version:      2.4
-Name:               martify
+Name:               matrix escapers
 Version:            0.1.0.0
 Build-Type:         Simple
 
 Author:              Alain Magazin, Abdelkrim Dib
-Maintainer:          alain.magazin@outlook.com, <abdelkrim mail>
+Maintainer:         ekeminieffiong22@gmail.com, <abdelkrim mail>
 Copyright:           © 2021 Alain Magazin, Abdelkrim Dib.
 License:             Apache-2.0
 License-files:       LICENSE
