@@ -69,7 +69,7 @@ PlutusTx.makeLift ''SaleAction
 {- For StartParams we ommit the seller
     because we automatically input the address of the wallet running the startSale enpoint
     
-   For BuyParams we ommit seller and price
+   For BuyParams we ommit seller and price.
     because we can read that in datum which can be obtained with just cs and tn of the sold token -}
 
 data BuyParams = BuyParams
@@ -96,3 +96,5 @@ type SaleSchema = Endpoint "close" BuyParams
                   Endpoint "updateContract" ValidatorHash
                   .\/
                   Endpoint "sendToken" Integer
+                  
+                  
